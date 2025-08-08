@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>予約・問い合わせ | 麺処 陸</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+  <h1>麺処 陸</h1>
+  <nav>
+    <a href="index.html">ホーム</a>
+    <a href="gallery.html">ギャラリー</a>
+    <a href="form.html">予約・問い合わせ</a>
+  </nav>
+  </header>
+
+  <main>
+    <h2>ご予約・お問い合わせ</h2>
+    <form id="contact-form">
+      <label>お名前: <input type="text" name="name" required></label><br>
+      <label>電話番号: <input type="tel" name="phone" required></label><br>
+      <label>来店希望日時: <input type="datetime-local" name="datetime" required></label><br>
+      <label>ご要望:<br><textarea name="message"></textarea></label><br>
+      <button type="submit">送信</button>
+    </form>
+  </main>
+  <footer>
+  <p>&copy; 2025 麺処 陸 | 長野県茅野市</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
